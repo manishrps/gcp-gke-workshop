@@ -1,10 +1,3 @@
----
-title: "Workshop Setup"
-chapter: false
-weight: 4
-pre: "<b>4 </b>"
----
-
 Before we get started on building, publishing and deploying our NPM application, we must set up our workshop environment. In this setup section, we will:
 
 - Set up our GCP environment.
