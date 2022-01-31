@@ -25,10 +25,10 @@ gcloud builds submit --substitutions=_JFROG_SERVER_NAME="${JFROG_SERVER_NAME}",_
 ```
 
 {{%expand "What's going on here?" %}}
-![Google Cloud Build JFrog CLI](/images/cloud-build-jfrog-cli.png)
+![Google Cloud Build JFrog CLI](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/cloud-build-jfrog-cli.png)
 .{{% /expand%}}
 
 This command should result in a successful build of docker image and it should be pushed to Artifactory.
-![JFrog CLI build success](/images/gcp/build_success1.png)
+![JFrog CLI build success](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp/build_success1.png)
 
-![JFrog CLI build success](/images/gcp/build_success2.png)
+![JFrog CLI build success](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp/build_success2.png)
