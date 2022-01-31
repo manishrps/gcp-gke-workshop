@@ -1,9 +1,3 @@
----
-title: "DevSecOps"
-chapter: false
-weight: 23
-pre: "<b>2.3 </b>"
----
 ![DevSecOps](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/devsecops.png)
 ![Xray DevSecOps](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/xray-dev-sec-ops.png)
 
