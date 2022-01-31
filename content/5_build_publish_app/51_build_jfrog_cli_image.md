@@ -1,10 +1,3 @@
----
-title: "Build the JFrog CLI Docker Image"
-chapter: false
-weight: 51
-pre: "<b>5.1 </b>"
----
-
 First, we will use Google Cloud Build to create a npm docker image with the JFrog CLI. This will enable us to use JFrog CLI to build npm packages.
 
 {{% notice info %}}
