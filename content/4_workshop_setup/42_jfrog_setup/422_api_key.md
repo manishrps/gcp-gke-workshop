@@ -1,10 +1,3 @@
----
-title: "Generate an API Key"
-chapter: false
-weight: 422
-pre: "<b>4.2.2 </b>"
----
-
 {{% notice tip %}}
 Remember your _username_ and _API key_. We will use it again with the JFrog CLI and to set up GKE to deploy your image.
 {{% /notice %}}
