@@ -50,7 +50,7 @@ When using this temporary GCP environment at a hosted event, use an **Incognito 
 
 10. You are now on your Google Cloud Console.
 
-![GCP Cloud Console](/images/gcp-cloud-console.png)
+![GCP Cloud Console](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp-cloud-console.png)
 
 11. Click on the Google Cloud Shell button at the top right of the console to open Google Cloud Shell terminal in your browser.
 
