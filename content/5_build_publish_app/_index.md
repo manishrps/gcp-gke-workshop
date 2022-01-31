@@ -1,10 +1,3 @@
----
-title: "Build and Publish the Npm App"
-chapter: false
-weight: 5
-pre: "<b>5 </b>"
----
-
 The JFrog CLI is a powerful tool that you can use in your CI/CD process and toolchain. It can be used to build code and publish artifacts while collecting valuable build information along the way. It greatly simplifies the publishing of the build artifacts and the build info to JFrog Artifactory. It is commonly used in automation scripts and with CI/CD software tools. In the next steps, we will use the JFrog CLI with Google Cloud Build to demonstrate how to build and publish with NPM and Docker.
 
 
