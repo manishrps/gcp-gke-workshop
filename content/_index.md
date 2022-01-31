@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-![GCP Logo](/images/gcp-logo.png) 
+![GCP Logo](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp-logo.png) 
 
 
 ### Welcome
