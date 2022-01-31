@@ -54,7 +54,7 @@ When using this temporary GCP environment at a hosted event, use an **Incognito 
 
 11. Click on the Google Cloud Shell button at the top right of the console to open Google Cloud Shell terminal in your browser.
 
-![GCP Cloud Shell](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp-cloud-console.png)
+![GCP Cloud Shell](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp-shell.png)
 
 12. Click the **Continue** button and wait a few moments for you Google Cloud Shell Machine to be ready.
 
