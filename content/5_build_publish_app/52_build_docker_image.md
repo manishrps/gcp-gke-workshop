@@ -1,10 +1,3 @@
----
-title: "Build the NPM Application Docker Image"
-chapter: false
-weight: 52
-pre: "<b>5.2 </b>"
----
-
 Now, we can use new JFrog CLI image to build the NPM application Docker image and push it to Artifactory's Docker repository.
 
 1. Return to your Google Cloud Shell terminal and change directory to _gcp-gke-workshop/workshop-app_.
