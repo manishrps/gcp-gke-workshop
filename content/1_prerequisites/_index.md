@@ -13,5 +13,4 @@ The following items are required for this workshop.
 
 - Have a notepad available for saving important workshop data.
 
-![Prerequisites](./images/Prerequisites.png)
-![](../images/Prerequisites.png)
+![Prerequisites](docs/images/Prerequisites.png)
