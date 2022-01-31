@@ -1,10 +1,3 @@
----
-title: "Get a GCP Environment"
-chapter: false
-weight: 411
-pre: "<b>4.1.1 </b>"
----
-
 {{% notice warning %}}
 If you have your own Google account and have your own GCP environment, skip this step.
 {{% /notice %}}
