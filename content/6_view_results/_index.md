@@ -1,10 +1,3 @@
----
-title: "View Results in JFrog"
-chapter: false
-weight: 6
-pre: "<b>6 </b>"
----
-
 We have built and published our NPM package and Docker image. Let's view these results in JFrog Artifactory.
 
 1. Go to your JFrog Platform instance and switch to the **Packages** view in Artifactory. Go to **Artifactory** ► **Packages**.
