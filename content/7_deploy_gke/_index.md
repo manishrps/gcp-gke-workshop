@@ -62,7 +62,7 @@ kubectl get pods --namespace clouddays -w
 
 You should see you npm-app pod.
 
-![Kubectl Get Pods](/images/kubectl-get-pods.png)
+![Kubectl Get Pods](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
 
 6. Now let's get the external IP so that we can view your application. Execute the following.
 
@@ -72,9 +72,9 @@ kubectl get services --namespace clouddays -w
 
 This will provide the EXTERNAL-IP.
 
-![Kubectl External IP](/images/kubectl-external-ip.png)
+![Kubectl External IP](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-external-ip.png)
 
 7. In your browser, go to https://\<EXTERNAL-IP\> to view your deployed web application. 
 8. Click through the self-signed certificate warning. You should see the following web application.
 
-![NPM Application](/images/npm-app.png)
+![NPM Application](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/npm-app.png)
