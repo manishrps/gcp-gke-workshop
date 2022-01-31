@@ -1,10 +1,3 @@
----
-title: "Prerequisites"
-chapter: false
-weight: 1
-pre: "<b>1 </b>"
----
-
 The following items are required for this workshop.
 
 - GCP account - If you are at an GCP event, an account and an environment will be provided. Otherwise, go [here](https://console.cloud.google.com/freetrial) to create a GCP account.
