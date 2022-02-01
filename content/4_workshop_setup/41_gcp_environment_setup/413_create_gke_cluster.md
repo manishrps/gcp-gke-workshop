@@ -7,9 +7,9 @@ pre: "<b>4.1.3 </b>"
 
 In this section, we will create a GKE Cluster in our Google Cloud Shell using the gcloud CLI.
 
-{{% notice info %}}
-The gcloud command-line interface is the primary CLI tool to create and manage Google Cloud resources. You can use this tool to perform many common platform tasks either from the command line or in scripts and other automations.
-{{% /notice %}}
+
+> **Note** The gcloud command-line interface is the primary CLI tool to create and manage Google Cloud resources. You can use this tool to perform many common platform tasks either from the command line or in scripts and other automations.
+
 
 1. In your Google Cloud Shell, execute the following command to set an environment variable for the GCP environment project ID.
 
