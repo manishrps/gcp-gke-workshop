@@ -1,6 +1,6 @@
 The JFrog Platform is designed to meet the growing needs of companies to develop and distribute software in the cloud. It provides DevOps teams with the tools needed to create, manage, secure and deploy software with ease. These tools cover everything from **continuous integration and delivery (CI/CD)**, **binary repository management**, artifact maturity, **security and vulnerability protection (DevSecOps)**, release management, analytics and distribution.
 
-![JFrog Platform](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/JFrog-Platform-Diagram_Mar20_Desktop.png.webp)
+![JFrog Platform](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/JFrog-Platform-Diagram_Mar20_Desktop.png.webp)
 
 **JFrog Artifactory** is an Artifact Repository Manager that fully supports software packages created by any language or technology. Furthermore, it integrates with all major CI/CD and DevOps tools to provide an end-to-end, automated solution for tracking artifacts from development to production.
 
@@ -18,6 +18,6 @@ The JFrog Platform is designed to meet the growing needs of companies to develop
 
 All of these JFrog Platform components are designed and developed to work together out-of-the-box with minimal configuration. Management and monitoring of your software delivery lifecycle from build to distribution is accessible though a central, unified user interface. The JFrog platform is enterprise ready with your choice of on-prem, cloud, multi-cloud or hybrid deployments that scale as you grow.
 
-![Platform UI](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/platform-ui.png)
+![Platform UI](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/platform-ui.png)
 
 {{% children showhidden="false" %}}
