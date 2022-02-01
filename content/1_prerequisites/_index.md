@@ -13,4 +13,4 @@ The following items are required for this workshop.
 
 - Have a notepad available for saving important workshop data.
 
-![Prerequisites](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/Prerequisites.png)
+![Prerequisites](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/Prerequisites.png)
