@@ -10,9 +10,10 @@ The workshop code is located at [https://github.com/jfrogtraining/gcp-gke-worksh
 
 3. Clone this repository to your local directory with the following command.
 
-``
+```
 git clone https://github.com/jfrogtraining/gcp-gke-workshop.git
-``
+
+```
 
 
 ![Git Clone](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/git-clone.png)
