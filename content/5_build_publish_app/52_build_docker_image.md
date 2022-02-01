@@ -22,24 +22,24 @@ The JFrog CLI is used to collect build information during this process and publi
 gcloud builds submit --substitutions=_JFROG_SERVER_NAME="${JFROG_SERVER_NAME}",_JFROG_USER="${JFROG_USER}",_JFROG_API_KEY="${JFROG_API_KEY}" --gcs-log-dir=gs://${PROJECT_ID}_cloudbuild/clouddays --config=cloudbuild.yaml .
 ```
 
-{{%expand "Let's review!" %}}
-![Google Cloud Build Steps](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/google-cloud-build-steps.png)
-.{{% /expand%}}
+**Let's review!**
 
-{{%expand "Docker rate limit policies! Artifactory can help!" %}}
+![Google Cloud Build Steps](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/google-cloud-build-steps.png)
+
+**Docker rate limit policies! Artifactory can help!**
 Docker Hub has set a new limit on data transfer beginning November 1st for free accounts: 100 pulls for anonymous users and 200 pulls for authenticated/free users for every 6 hours per IP address or a unique user.
 
 Artifactory can protect you from this by proxying and caching images! This reduces the number of pulls from Docker Hub.
 
 Docker also has a 6 month retention policy for free accounts. You can avoid that as well by using Artifactory as your private registry.
 
-![Docker Remote](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/docker-remote.png)
-.{{% /expand%}}
+![Docker Remote](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/docker-remote.png)
 
-This command should result in a successful build of docker image and it should be pushed to Artifactory. 
-![JFrog CLI build success](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp/build2_success1.png)
+This command should result in a successful build of docker image and it should be pushed to Artifactory.
 
-![JFrog CLI build success](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp/build2_success2.png)
+![JFrog CLI build success](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp/build2_success1.png)
+
+![JFrog CLI build success](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp/build2_success2.png)
 
 
 
