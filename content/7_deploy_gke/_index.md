@@ -2,9 +2,9 @@ We are now ready to deploy your image with GKE. If not yet created, GKE can crea
 
 1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command (replace $PROJECT_ID and &REGION which you have given in starting of the lab).
 
-    ```
-    gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
-    ```
+   ```
+   gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
+   ```
 
 2. Verify that our cluster is healthy and by showing the Kubernetes nodes.
 
@@ -30,42 +30,42 @@ We are now ready to deploy your image with GKE. If not yet created, GKE can crea
 
 3. Set an environment variable for our image name.
 
-```
-export IMAGE_NAME=$JFROG_SERVER_NAME/clouddays/npm-app:latest
-echo $IMAGE_NAME
-```
+    ```
+    export IMAGE_NAME=$JFROG_SERVER_NAME/clouddays/npm-app:latest
+    echo $IMAGE_NAME
+    ```
 
 3. We will use a Kubernetes deployment manifest to deploy the NPM application image. First, we must make a substitution in the file for the image that we want to deploy.
 
-``
-sed "s|imageName|$IMAGE_NAME|g" deployment.yaml > my-deployment.yaml
-``
+    ```
+    sed "s|imageName|$IMAGE_NAME|g" deployment.yaml > my-deployment.yaml
+    ```
 
 4. Now we can deploy with the following command.
 
-``
-kubectl apply -f my-deployment.yaml --namespace clouddays
-``
+    ```
+    kubectl apply -f my-deployment.yaml --namespace clouddays
+    ```
 
 5. Execute the following to see your deployed pod.
 
-``
-kubectl get pods --namespace clouddays -w
-``
+    ```
+    kubectl get pods --namespace clouddays -w
+    ```
 
 You should see you npm-app pod.
 
-![Kubectl Get Pods](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl Get Pods](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
 
 6. Now let's get the external IP so that we can view your application. Execute the following.
 
-``
-kubectl get services --namespace clouddays -w
-``
+    ```
+    kubectl get services --namespace clouddays -w
+    ```
 
 This will provide the EXTERNAL-IP.
 
-![Kubectl External IP](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl External IP](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
 
 7. In your browser, go to https://\<EXTERNAL-IP\> to view your deployed web application. 
 8. Click through the self-signed certificate warning. You should see the following web application.
