@@ -16,8 +16,8 @@ Next, we will set up a NPM and Docker repositories in Artifactory.
 
    ![New Docker Repository](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/new-docker-repository.png)
 
-5. Click **Save & Finish**.
-
+5. Click **Create Local repository**.
+   
 6. **Close** the _New Docker Repository_ dialog.
 
 7. Next, we must create NPM repositories that will be used for NPM dependencies. JFrog provides an easy _Quick Setup_ option for this. Go to your profile and select **Quick Setup**. 
