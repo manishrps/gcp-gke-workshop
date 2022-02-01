@@ -20,4 +20,4 @@ All of these JFrog Platform components are designed and developed to work togeth
 
 ![Platform UI](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/platform-ui.png)
 
-{{% children showhidden="false" %}}
+**children showhidden="false"**
