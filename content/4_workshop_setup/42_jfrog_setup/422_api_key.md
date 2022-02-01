@@ -23,19 +23,15 @@
 
 7. Copy the **API Key**.
 8. Click **Save**.
-9. We must set these credentials as environment variables to be used in the build later. Do that now with the following commands.
+9. We must set these credentials as environment variables to be used in the build later. Do that now with the following commands (Replace [server_name] as **myworkshop**)
 
-``
-export JFROG_USER=<username/email>
-``
+ ```
+ export JFROG_USER=<username/email>
+ 
+ export JFROG_API_KEY=<api key>
 
-``
-export JFROG_API_KEY=<api key>
-``
-
-``
-export JFROG_SERVER_NAME=<[server_name].jfrog.io>
-``
+ export JFROG_SERVER_NAME=[server_name].jfrog.io
+ ```
 
 ![JFrog ENV VARS](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/jfrog-env-vars.png)
 
