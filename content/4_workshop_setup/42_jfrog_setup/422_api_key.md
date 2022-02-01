@@ -23,7 +23,7 @@
 
 7. Copy the **API Key**.
 8. Click **Save**.
-9. We must set these credentials as environment variables to be used in the build later. Do that now with the following commands (Replace [server_name] as **myworkshop**)
+9. We must set these credentials as environment variables to be used in the build later. Do that now with the following commands.
 
  ```
  export JFROG_USER=<username/email>
