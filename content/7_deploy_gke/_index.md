@@ -1,6 +1,6 @@
 We are now ready to deploy your image with GKE. If not yet created, GKE can create a new VPC as well as the other components that are required to serve your application. GKE will then authenticate, pull the image from Artifactory and deploy the container to the GKE.
 
-1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command (replace $PROJECT_ID and &REGION which you have copied in starting of the lab).
+1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command.
 
    ```
    gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
@@ -51,7 +51,7 @@ We are now ready to deploy your image with GKE. If not yet created, GKE can crea
 
 You should see you npm-app pod.
 
-   ![Kubectl Get Pods](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl Get Pods](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
 
 6. Now let's get the external IP so that we can view your application. Execute the following.
 
@@ -61,7 +61,7 @@ You should see you npm-app pod.
 
 This will provide the EXTERNAL-IP.
 
-   ![Kubectl External IP](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl External IP](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-external-ip.png)
 
 7. In your browser, go to https://\<EXTERNAL-IP\> to view your deployed web application. 
 8. Click through the self-signed certificate warning. You should see the following web application.
