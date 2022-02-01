@@ -58,7 +58,7 @@ We are now ready to deploy your image with GKE. If not yet created, GKE can crea
 
 You should see you npm-app pod.
 
-   ![Kubectl Get Pods](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl Get Pods](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
 
 6. Now let's get the external IP so that we can view your application. Execute the following.
 
