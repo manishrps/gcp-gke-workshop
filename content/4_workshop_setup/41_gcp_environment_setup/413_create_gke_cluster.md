@@ -9,7 +9,7 @@ export PROJECT_ID=`gcloud config get-value project`
 echo $PROJECT_ID
 ```
 
-2. In your Google Cloud Shell, execute the following command to set an environment variable for the GCP region that you would like to use.
+2. In your Google Cloud Shell, execute the following command to set an environment variable for the GCP region that you would like to use (example: replace <your region> with **us-east1**):
 
 ```
 export REGION=<your region>
