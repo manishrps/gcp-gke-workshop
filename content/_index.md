@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-![GCP Logo](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/gcp-logo.png) 
+![GCP Logo](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp-logo.png) 
 
 
 ### Welcome
@@ -20,8 +20,8 @@ In this workshop you will learn about the JFrog Platform and how to leverage Art
 - Scan your artifacts and builds for security vulnerabilities.
 - Deploy your application using Google Kubernetes Engine (GKE).
 
-{{% notice warning %}}
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
-{{% /notice %}}
+
+> **Note** The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
+
 
 
