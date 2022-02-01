@@ -11,7 +11,7 @@ The goal of DevOps is to allow your development teams to deliver quality softwar
 
 > Looking forward, as release cycles get shorter and microservices get smaller, we can imagine a world in which at any one time, our systems’ software is being updated. Effectively, software will become liquid in that products and services will be connected to “software pipes” that constantly stream updates into our systems and devices; liquid software continuously and automatically updating our systems with no human intervention.
 >
-> -- <cite>JFrog (2017), A Vision of Liquid Software, Retrieved from https://jfrog.com/whitepaper/a-vision-of-liquid-software/</cite>
+> -<cite>JFrog (2017), A Vision of Liquid Software, Retrieved from https://jfrog.com/whitepaper/a-vision-of-liquid-software/</cite>
 
 
 A critical aspect of DevOps is infrastructure. Cloud computing infrastructure has allowed DevOps to advance and come closer to realizing _liquid software_. Cloud computing has allowed development teams to build these software pipes by:
