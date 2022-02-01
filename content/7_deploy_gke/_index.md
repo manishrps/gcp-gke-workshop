@@ -1,32 +1,32 @@
 We are now ready to deploy your image with GKE. If not yet created, GKE can create a new VPC as well as the other components that are required to serve your application. GKE will then authenticate, pull the image from Artifactory and deploy the container to the GKE.
 
-1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command.
+1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command (replace $PROJECT_ID and &REGION which you have given in starting of the lab).
 
-```
-gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
-```
+    ```
+    gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
+    ```
 
 2. Verify that our cluster is healthy and by showing the Kubernetes nodes.
 
-```
-kubectl get nodes
-```
+    ```
+    kubectl get nodes
+    ```
 
 1. First, let's create a namespace to provide isolation. Execute the following.
 
-``
-kubectl create namespace clouddays
-``
+    ```
+    kubectl create namespace clouddays
+    ```
 
 2. Next, we need to set our Artifactory registry credentials in order to pull the NPM application image. We will do this my creating Kubernetes secrets to store these. Execute the following command. Substitute your _server name_ and JFrog Platform credentials (_username_ and _API key_).
 
-``
-kubectl create secret docker-registry regcred 
-    --namespace clouddays
-    --docker-server=$JFROG_SERVER_NAME 
-    --docker-username=$JFROG_USER
-    --docker-password=$JFROG_API_KEY
-``
+    ```
+    kubectl create secret docker-registry regcred 
+        --namespace clouddays
+        --docker-server=$JFROG_SERVER_NAME 
+        --docker-username=$JFROG_USER
+        --docker-password=$JFROG_API_KEY
+    ```
 
 3. Set an environment variable for our image name.
 
