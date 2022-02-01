@@ -7,7 +7,7 @@ pre: "<b>7 </b>"
 
 We are now ready to deploy your image with GKE. If not yet created, GKE can create a new VPC as well as the other components that are required to serve your application. GKE will then authenticate, pull the image from Artifactory and deploy the container to the GKE.
 
-1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command (replace $PROJECT_ID and &REGION which you have copied in starting of the lab).
+1 . Remember the kubernetes cluster we created in the beginning of the lab? It must be ready by now. Let's establish connectivity to it with the following command.
 
    ```
    gcloud container clusters get-credentials gcpworkshop --project=$PROJECT_ID --zone=$REGION
