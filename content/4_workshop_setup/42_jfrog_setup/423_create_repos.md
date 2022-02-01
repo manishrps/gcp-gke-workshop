@@ -16,7 +16,7 @@ Next, we will set up a NPM and Docker repositories in Artifactory.
 
    ![New Docker Repository](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/new-docker-repository.png)
 
-5. Click **Create Local repository**.
+5. Click **Save & Finish**.
    
 6. **Close** the _New Docker Repository_ dialog.
 
