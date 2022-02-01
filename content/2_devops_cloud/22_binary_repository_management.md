@@ -1,4 +1,4 @@
-![Repositories](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/repositories.png)
+![Repositories](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/repositories.png)
 
 A Binary Repository Manager is a software hub that simplifies the development process for different teams across an organization by helping them to collaborate on building coherent and compatible software components. It does this by centralizing the management of all the binary artifacts generated and used by the organization, thereby overcoming the incredible complexity arising from diverse binary artifact types, their position in the overall workflow and the set of dependencies between them.
 
