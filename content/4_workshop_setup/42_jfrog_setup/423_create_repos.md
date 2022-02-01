@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create NPM and Docker Repos"
 chapter: false
 weight: 423
@@ -39,6 +39,6 @@ Next, we will set up a NPM and Docker repositories in Artifactory.
 
 ![Quick Setup Done](https://raw.githubusercontent.com/manishrps/gcp-gke-workshop/master/docs/images/jfrog-quick-setup-done.png)
 
-{{% notice info %}}
-Three different types of repositories can be created: local, remote and virtual. **Local repositories** are physical, locally-managed repositories into which you can deploy artifacts. These are repositories that are local to the JFrog Artifactory instance. A **remote repository** serves as a caching proxy for a repository managed at a remote URL (which may itself be another Artifactory remote repository). A **virtual repository** (or "repository group") aggregates several repositories with the same package type under a common URL. A virtual repository can aggregate local and remote repositories.
-{{% /notice %}}
+
+> **Note** Three different types of repositories can be created: local, remote and virtual. **Local repositories** are physical, locally-managed repositories into which you can deploy artifacts. These are repositories that are local to the JFrog Artifactory instance. A **remote repository** serves as a caching proxy for a repository managed at a remote URL (which may itself be another Artifactory remote repository). A **virtual repository** (or "repository group") aggregates several repositories with the same package type under a common URL. A virtual repository can aggregate local and remote repositories.
+
