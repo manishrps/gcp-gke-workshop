@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Get a Free JFrog Platform Instance"
 chapter: false
 weight: 421
