@@ -5,16 +5,16 @@ weight: 411
 pre: "<b>4.1.1 </b>"
 ---
 
-{{% notice warning %}}
-If you have your own Google account and have your own GCP environment, skip this step.
-{{% /notice %}}
+
+> **Note** If you have your own Google account and have your own GCP environment, skip this step.
+
 
 This workshop requires a GCP environment. If this is a JFrog and Google hosted event, your instructor will provide a link and an activation code. The following steps walk through the process of obtaining a GCP environment using the provided link and activation code.
 Otherwise, use your own GCP environment and skip this step.
 
-{{% notice warning %}}
-When using this temporary GCP environment at a hosted event, use an **Incognito Window** to avoid conflicts with your existing Google Account.
-{{% /notice %}}
+
+> **Note** When using this temporary GCP environment at a hosted event, use an **Incognito Window** to avoid conflicts with your existing Google Account.
+
 
 1. Open the instructor provided link in your browser. This will take you to environment registration page.
 
