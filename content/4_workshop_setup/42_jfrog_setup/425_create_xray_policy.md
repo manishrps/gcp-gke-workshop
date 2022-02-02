@@ -2,13 +2,13 @@ Next, we will create an Xray security policy that sets the types of security vio
 
 1. Go to **Application** ► **Security & Compliance** ► **Policies**.
 
-   ![Xray Policies](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/xray-policies.png)
+   ![Xray Policies](../../../docs/images/xray-policies.png)
 
 2. Click on **Create a Policy**.
 
 3. Give the policy a name like _default-security_ and a description.
 
-   ![Security Policy Name](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/security-policy-name.png)
+   ![Security Policy Name](../../../docs/images/security-policy-name.png)
 
 4. Click on **New Rule** at the right.
 
@@ -16,7 +16,7 @@ Next, we will create an Xray security policy that sets the types of security vio
 
 6. For **Minimal Severity**, specify **High**.
 
-   ![Xray Policy Rule](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/xray-policy-rule.png)
+   ![Xray Policy Rule](../../../docs/images/xray-policy-rule.png)
 
 7. Click **Save** for the new rule.
 
