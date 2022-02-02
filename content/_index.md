@@ -1,4 +1,4 @@
-![GCP Logo](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp-logo.png) 
+![GCP Logo](../../docs/images/gcp-logo.png) 
 
 
 ### Welcome
