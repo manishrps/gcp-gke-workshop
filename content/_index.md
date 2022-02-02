@@ -1,4 +1,4 @@
-![GCP Logo](../../docs/images/gcp-logo.png) 
+![GCP Logo](../docs/images/gcp-logo.png) 
 
 
 ### Welcome
