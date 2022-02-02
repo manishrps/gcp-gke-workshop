@@ -9,24 +9,24 @@ pre: "<b>4.2.2 </b>"
 
 1. Go to your JFrog Platform instance at _https://[server name].jfrog.io_. Refer to your _JFrog Free Subscription Activation_ email if needed. Substitute your _server name_.
 
-   ![Activation Email](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/activation-email.png)
+   ![Activation Email](../../../docs/images/activation-email.png)
 
 2. Login to your JFrog Platform instance with your credentials.
 
-   ![Login](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/login.png)
+   ![Login](../../../docs/images/login.png)
 
 3. Once logged into your JFrog Platform instance, you will be presented with the landing page.
 
-   ![Landing](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/landing.png)
+   ![Landing](../../../docs/images/landing.png)
 
 4. Go to your profile and select **Edit Profile**.
 
-   ![Edit Profile](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/edit-profile.png)
+   ![Edit Profile](../../../docs/images/edit-profile.png)
 
 5. Enter your password and click **Unlock** to edit the profile.
 6. In the **Authentication Settings** section, click the gear icon to generate an API key.
 
-   ![Api Key](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/api-key.png)
+   ![Api Key](../../../docs/images/api-key.png)
 
 7. Copy the **API Key**.
 8. Click **Save**.
@@ -40,4 +40,4 @@ pre: "<b>4.2.2 </b>"
  export JFROG_SERVER_NAME=[server_name].jfrog.io
  ```
 
-![JFrog ENV VARS](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/jfrog-env-vars.png)
+![JFrog ENV VARS](../../../docs/images/jfrog-env-vars.png)
