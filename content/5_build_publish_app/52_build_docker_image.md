@@ -24,7 +24,7 @@ gcloud builds submit --substitutions=_JFROG_SERVER_NAME="${JFROG_SERVER_NAME}",_
 
 **Let's review!**
 
-![Google Cloud Build Steps](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/google-cloud-build-steps.png)
+![Google Cloud Build Steps](../../docs/images/google-cloud-build-steps.png)
 
 **Docker rate limit policies! Artifactory can help!**
 Docker Hub has set a new limit on data transfer beginning November 1st for free accounts: 100 pulls for anonymous users and 200 pulls for authenticated/free users for every 6 hours per IP address or a unique user.
@@ -33,13 +33,13 @@ Artifactory can protect you from this by proxying and caching images! This reduc
 
 Docker also has a 6 month retention policy for free accounts. You can avoid that as well by using Artifactory as your private registry.
 
-![Docker Remote](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/docker-remote.png)
+![Docker Remote](../../docs/images/docker-remote.png)
 
 This command should result in a successful build of docker image and it should be pushed to Artifactory.
 
-![JFrog CLI build success](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp/build2_success1.png)
+![JFrog CLI build success](../../docs/images/gcp/build2_success1.png)
 
-![JFrog CLI build success](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/gcp/build2_success2.png)
+![JFrog CLI build success](../../docs/images/gcp/build2_success2.png)
 
 
 
