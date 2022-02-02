@@ -10,15 +10,15 @@ Otherwise, use your own GCP environment and skip this step.
 
 1. Open the instructor provided link in your browser. This will take you to environment registration page.
 
-![GCP Environment Registration](../../docs/images/gcp-environment-registration.png)
+![GCP Environment Registration](../../../docs/images/gcp-environment-registration.png)
 
 2. Fill out the form with your information and click **Submit**.
 
-![GCP Environment Registration](../../docs/images/gcp-environment-registration-form.png)
+![GCP Environment Registration](../../../docs/images/gcp-environment-registration-form.png)
 
 3. Next, click on the **Launch Lab** button.
 
-![GCP Environment Launch](../../docs/images/gcp-environment-launch-lab.png)
+![GCP Environment Launch](../../../docs/images/gcp-environment-launch-lab.png)
 
 4. It will take a couple minutes for your environment to be ready.
 
