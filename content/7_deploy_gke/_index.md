@@ -51,7 +51,7 @@ We are now ready to deploy your image with GKE. If not yet created, GKE can crea
 
 You should see you npm-app pod.
 
-   ![Kubectl Get Pods](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-get-pods.png)
+   ![Kubectl Get Pods](../../docs/images/kubectl-get-pods.png)
 
 6. Now let's get the external IP so that we can view your application. Execute the following.
 
@@ -61,9 +61,9 @@ You should see you npm-app pod.
 
 This will provide the EXTERNAL-IP.
 
-   ![Kubectl External IP](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/kubectl-external-ip.png)
+   ![Kubectl External IP](../../docs/images/kubectl-external-ip.png)
 
 7. In your browser, go to https://\<EXTERNAL-IP\> to view your deployed web application. 
 8. Click through the self-signed certificate warning. You should see the following web application.
 
-   ![NPM Application](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/npm-app.png)
+   ![NPM Application](../../docs/images/npm-app.png)
