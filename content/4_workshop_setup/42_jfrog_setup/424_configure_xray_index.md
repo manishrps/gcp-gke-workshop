@@ -2,17 +2,17 @@ Next, we will configure Xray to index our new Docker repository. This allows Xra
 
 1. Let's configure Xray to index the new Docker repository automatically. Go to **Administration** ► **Xray Security & Compliance**.
 
-   ![Config Xray](../../docs/images/config-xray.png)
+   ![Config Xray](../../../docs/images/config-xray.png)
 
 2. Click on **Indexed Resources**.
 
 3. Click on **Add a Repository** on the right.
 
-   ![Xray Add Repo](../../docs/images/xray-add-repo.png)
+   ![Xray Add Repo](../../../docs/images/xray-add-repo.png)
 
 4. Move the _clouddays_ repository into the **Included Repositories**.
 
-    ![Config Indexed Repo](../../docs/images/config-indexed-repo.png)
+    ![Config Indexed Repo](../../../docs/images/config-indexed-repo.png)
 
 5. Click **Save**. You have now configured Xray to index the _clouddays_ repository.
 
