@@ -9,4 +9,4 @@ If you do not have access to a JFrog Platform instance, use the [JFrog Platform 
 
 > **Note** When signing up for the [JFrog Platform Cloud Free Tier](https://jfrog.com/artifactory/start-free/), ensure that you select **Google Cloud**.
 
-![JFrog Platform Cloud Free Tier](https://raw.githubusercontent.com/jfrogtraining/gcp-gke-workshop/master/docs/images/cloud-free-tier.png)
+![JFrog Platform Cloud Free Tier](../../../docs/images/cloud-free-tier.png)
