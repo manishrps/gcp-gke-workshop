@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-![GCP Logo](../../docs/images/gcp-logo.png) 
+![GCP Logo](../docs/images/gcp-logo.png) 
 
 
 ### Welcome
