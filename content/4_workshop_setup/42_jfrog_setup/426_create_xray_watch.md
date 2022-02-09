@@ -1,6 +1,6 @@
 Next, we will create an Xray security watch to scan our new Docker repository.
 
-1. Go to **Application** ► **Security & Compliance** ► **Watches**.
+1. Go to **Administration** ► **Xray** ► **Watches & Policies** ► **Watches**.
 
    ![Xray Watches](../../../docs/images/xray-watches.png)
 
