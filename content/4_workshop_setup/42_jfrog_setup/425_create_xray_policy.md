@@ -2,7 +2,7 @@ Next, we will create an Xray security policy that sets the types of security vio
 
 1. Go to **Administration** ► **Xray** ► **Watches & Policies** ► **Policies**.
 
-   ![Xray Policies](../../../docs/images/xray-policies.png)
+   ![Xray Policies](../../../docs/images/xray-policy.png)
 
 2. Click on **Create a Policy**.
 
