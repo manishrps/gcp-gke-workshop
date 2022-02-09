@@ -19,6 +19,8 @@ gcloud builds submit --substitutions=_JFROG_SERVER_NAME="${JFROG_SERVER_NAME}",_
 ![Google Cloud Build JFrog CLI](../../docs/images/cloud-build-jfrog-cli.png)
 
 This command should result in a successful build of docker image and it should be pushed to Artifactory.
-![JFrog CLI build success](../../docs/images/gcp/build_success1.png)
+![JFrog CLI build success](../../docs/images/gcp/jfrog-cli-succes-docker.png)
 
-![JFrog CLI build success](../../docs/images/gcp/build_success2.png)
+![JFrog CLI build success](../../docs/images/gcp/jfrog-cli-docker-image.png)
+
+Before moving further lets move back to **4.24** module to enable xray.
