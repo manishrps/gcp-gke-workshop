@@ -1,6 +1,6 @@
 Next, we will configure Xray to index our new Docker repository. This allows Xray to automatically analyze all the artifacts in this repository.
 
-1. Let's configure Xray to index the new Docker repository automatically. Go to **Administration** ► **Xray Security & Compliance**.
+1. Let's configure Xray to index the new Docker repository automatically. Go to **Administration** ► **Xray** ► **Settings**.
 
    ![Config Xray](../../../docs/images/config-xray.png)
 
