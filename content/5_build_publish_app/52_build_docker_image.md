@@ -52,17 +52,17 @@ Artifactory can protect you from this by proxying and caching images! This reduc
 Docker also has a 6 month retention policy for free accounts. You can avoid that as well by using Artifactory as your private registry.
 
 ![Docker Remote](../../docs/images/docker-remote.png)
-.{{% /expand%}}
+
 
 If above cloud build  passes all steps then it should result in a successful build of docker image which should be pushed to Artifactory.
 
-![JFrog CLI build success](/images/cloud-build-result.png)
+![JFrog CLI build success](../../docs/images/cloud-build-result.png)
 
-![JFrog CLI build success](/images/npm-app-docker-repo.png)
+![JFrog CLI build success](../../docs/images/npm-app-docker-repo.png)
 
 Also the cloud build should create a release in Cloud Deploy pipeline and Deploy the app to test.
 
-![Cloud Deploy](/images/cloud-deploy-result.png)
+![Cloud Deploy](../../docs/images/cloud-deploy-result.png)
 
 8. Execute the following to see your deployed pod.
 
@@ -72,7 +72,7 @@ kubectl get pods
 
 You should see you npm-app pod.
 
-![Kubectl Get Pods](/images/kubectl-get-pods.png)
+![Kubectl Get Pods](../../docs/images/kubectl-get-pods.png)
 
 9. Now let's get the external IP so that we can view your application. Execute the following.
 
@@ -82,7 +82,7 @@ kubectl get services
 
 This will provide the EXTERNAL-IP.
 
-![Kubectl External IP](/images/kubectl-external-ip.png)
+![Kubectl External IP](../../docs/images/kubectl-external-ip.png)
 
 10. In your browser, go to https://\<EXTERNAL-IP\> to view your deployed web application. 
 
