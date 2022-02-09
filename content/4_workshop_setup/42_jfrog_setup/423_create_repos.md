@@ -14,7 +14,7 @@ Next, we will set up a NPM and Docker repositories in Artifactory.
 
 4. Specify _clouddays_ for the **Repository Key**.
 
-   ![New Docker Repository](../../../docs/images/new-docker-repository.png)
+   ![New Docker Repository](../../../docs/images/docker-create-local.png)
 
 5. Click **Create Local Repository**.
    
