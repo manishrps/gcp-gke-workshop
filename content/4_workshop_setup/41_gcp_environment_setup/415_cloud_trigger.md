@@ -1,10 +1,3 @@
----
-title: "Create a Cloud Build Trigger"
-chapter: false
-weight: 415
-pre: "<b>4.1.5 </b>"
----
-
 In this section, we will create a Cloud Build trigger which will trigger automatically the cloud build file on any push to the github repo and deploy to test.
 
 1. Navigate to **Cloud Buiild** and select **Triggers** from the left pane.
