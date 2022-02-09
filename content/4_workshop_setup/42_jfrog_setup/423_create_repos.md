@@ -16,19 +16,19 @@ Next, we will set up a NPM and Docker repositories in Artifactory.
 
    ![New Docker Repository](../../../docs/images/new-docker-repository.png)
 
-5. Click **Save & Finish**.
+5. Click **Create Local Repository**.
    
-6. **Close** the _New Docker Repository_ dialog.
-
-7. Next, we must create NPM repositories that will be used for NPM dependencies. JFrog provides an easy _Quick Setup_ option for this. Go to your profile and select **Quick Setup**. 
+6. Next, we must create NPM repositories that will be used for NPM dependencies. JFrog provides an easy _Quick Setup_ option for this. Go to your profile and select **Quick Setup**. 
 
    ![Quick Setup](../../../docs/images/jfrog-quick-setup.png)
 
-8. Select **NPM**.
+7. Select **NPM**.
 
    ![Quick Setup NPM](../../../docs/images/jfrog-quick-setup-npm.png)
+   
+8. Select **Create a new repository** option. 
 
-9. Then click **Create** and then **Finish**. This create default NPM repositories including a remote repository for npmjs.
+9. Add **clouddays** as repository prefix and then click **create**. This create default NPM repositories including a remote repository for npmjs.
 
    ![Quick Setup Done](../../../docs/images/jfrog-quick-setup-done.png)
 
