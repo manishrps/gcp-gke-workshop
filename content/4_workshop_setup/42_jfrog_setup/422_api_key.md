@@ -2,7 +2,7 @@
 
 1. Go to your JFrog Platform instance at _https://[server name].jfrog.io_. Refer to your _JFrog Free Subscription Activation_ email if needed. Substitute your _server name_.
 
-   ![Activation Email](../../../docs/images/activation-email.png)
+   ![Activation Email](../../../docs/images/email-jfrog-confirmation.png)
 
 2. Login to your JFrog Platform instance with your credentials.
 
