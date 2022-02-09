@@ -2,7 +2,7 @@ Next, we will configure Xray to index our new Docker repository. This allows Xra
 
 1. Let's configure Xray to index the new Docker repository automatically. Go to **Administration** ► **Xray** ► **Settings**.
 
-   ![Config Xray](../../../docs/images/config-xray.png)
+   ![Config Xray](../../../docs/images/xray-config.png)
 
 2. Click on **Indexed Resources**.
 
