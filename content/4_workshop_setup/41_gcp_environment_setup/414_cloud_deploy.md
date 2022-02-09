@@ -34,8 +34,8 @@ Service Account User
 ```
 gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=$PROJECT_ID
 ```
-![Cloud Deploy command]((../../../docs/images/cloud-deploy-pipeline-create.png)
+    ![Cloud Deploy command]((../../../docs/images/cloud-deploy-pipeline-create.png)
 
 6. Once above command execute successfully, navigate to **Cloud Deploy** and you should see one pipeline with name **clouddays-demo**
 
-![Cloud Deploy pipeline]((../../../docs/images/cloud-deploy-pipeline-view.png)
+    ![Cloud Deploy pipeline]((../../../docs/images/cloud-deploy-pipeline-view.png)
